@@ -9,7 +9,7 @@ body{
     color: #666;
 }
 .pimg1{
-    background-image: url(image1.png);
+    background-image: url(Image1.png);
     min-height: 100%;
 }
 .pimg2{
@@ -63,4 +63,5 @@ body{
      background-color: #f1e9e9;
     color: #3b3030;
 }
+
 

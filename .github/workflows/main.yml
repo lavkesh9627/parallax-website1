@@ -3,7 +3,7 @@ name: Deploy Website
 on:
   push:
     branches:
-      - main   # Change this if your default branch is "master"
+      - main
 
 permissions:
   contents: read
@@ -23,7 +23,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: .   # Your HTML, CSS files should be in root (or set to `./public` etc.)
+          path: .   # all files are already in root
 
   deploy:
     environment:
